@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Dream Taste Restaurant</title>
+  </head>
+
+<body>
+  <!----------------------------------------------------NAVBAR------------------------------------------------------------------->
+<section>
+  <nav class="navbar">
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <img src="img/logo.png" alt="nav-logo">
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reservation">Rezervations</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+  </nav>
+</section>
+<!-----------------------------------------------MAIN-CONTENT---------------------------------------------------------------------------->
+<section>
+  <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="img/main.jpg" alt="header"/>
+      </div>
+      <div class="header__content">
+        <h1>Welcome to our<span> Dream Taste</span> Restaurant</h1>
+          <p class="section__description">
+              Welcome to Dream Taste, where great food meets a warm atmosphere. 
+              Located in Skopje, we offer fresh, delicious dishes crafted by skilled chefs.
+              Whether for a special occasion, a casual meal, or just coffee, our staff 
+              ensures an exceptional visit. Come and enjoy the flavors of Dream Taste.
+          </p>
+            <div class="header__btn">
+              <button class="btn"><i class="fa-solid fa-arrow-down"></i>Scroll down<i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+      </div>
+  </header>
+</section>
+<!-----------------------------------------------------ABOUT------------------------------------------------------------------------>
+<section class="section__container explore__container" id="about">
+  <div class="explore__images">
+    <img src="img/restaurant1.jpg" alt="explore"/>
+    <img src="img/restaurant2.jpg" alt="explore"/>
+    <img src="img/restaurant3.jpg" alt="explore"/>
+    <img src="img/restaurant4.jpg" alt="explore"/>
+  </div>
+  <div class="explore__content">
+    <h1 class="section__header">Dream Taste</h1>
+      <p class="section__description">
+        Discover the heart of our restaurant and experience the best of both worlds: 
+        the cozy comfort of our indoor dining area and the vibrant atmosphere of our outdoor terrace. 
+        Join us for an unforgettable culinary journey, where delicious food and charming surroundings 
+        come together to create unforgettable moments.
+      </p>
+  </div>
+</section>
+ <!--------------------------------------------------------MENU---------------------------------------------------------------------------->   
+<section class="section__container special__container" id="menu">
+  <h2 class="section__header">Our Menu</h2>
+    <p class="section__description">
+      Each dish promises an unforgettable dining experience, blending
+      innovation with tradition to delight your senses.
+    </p>
+    <div class="menu-nav">
+      <button data-category="all">All</button>
+      <button data-category="breakfast">Breakfast</button>
+      <button data-category="lunch">Lunch</button>
+      <button data-category="dinner">Dinner</button>
+      <button data-category="child">Child Menu</button>
+      <button data-category="drinks">Drinks</button>
+      <button data-category="dessert">Desserts</button>
+  </div>
+      <div class="special__grid">
+        <div class="special__card" data-category="breakfast">
+          <img src="img/breakfast1.png" alt="special" />
+            <h4>Fried Eggs</h4>
+          <p>
+            Perfectly cooked fried eggs with a crispy edge and runny yolk, served with a side of toasted bread
+          </p>
+            <div class="special__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          <div class="special__footer">
+            <p class="price">€4.00</p>
+          </div>
+        </div>
+        <div class="special__card" data-category="breakfast">
+          <img src="img/breakfast2.png" alt="special" />
+            <h4>Poached Egg and Avocados on Toast</h4>
+              <p>
+                Savor the delightful pairing of perfectly poached eggs with creamy avocados, elegantly served atop golden toasted bread
+              </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">€8.00</p>
+          </div>
+        </div>
+        <div class="special__card" data-category="lunch">
+          <img src="img/lunch1.png" alt="special" />
+            <h4>Brown Soup</h4>
+              <p>
+                Rich and hearty brown soup, simmered to perfection with a blend of savory spices and tender vegetables
+              </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">€7.00</p>
+          </div>
+        </div>
+          <div class="special__card" data-category="lunch">
+            <img src="img/lunch2.png" alt="special" />
+              <h4>Chicken Fingers</h4>
+                <p>
+                  Savor the crispy tenderness of our Chicken Fingers, paired with vibrant carrots and a tantalizing sauce
+                </p>
+              <div class="special__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="special__footer">
+                <p class="price">€13.00</p>
+              </div>
+          </div>
+            <div class="special__card" data-category="dinner">
+              <img src="img/dinner1.png" alt="special" />
+              <h4>Ribeye Steak</h4>
+              <p>
+                Juicy, tender ribeye steak, grilled to perfection and seasoned with our signature herbs
+              </p>
+              <div class="special__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="special__footer">
+                <p class="price">€15.00</p>
+              </div>
+            </div>
+              <div class="special__card" data-category="dinner">
+                <img src="img/dinner2.png" alt="special" />
+                <h4>Pizza</h4>
+                <p>
+                  Experience pizza perfection with our freshly baked pies, crafted with premium ingredients
+                </p>
+                <div class="special__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="special__footer">
+                  <p class="price">€13.00</p>
+                </div>
+              </div>
+                <div class="special__card" data-category="child">
+                  <img src="img/child-menu1.png" alt="special" />
+                  <h4>Slice of Loaf Bread</h4>
+                  <p>
+                    Enjoy its soft, fluffy texture and subtle hint of warmth. Pair it with your choice of condiments,
+                    including tangy ketchup, savory garlic butter, or creamy hummus
+                  </p>
+                  <div class="special__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                  </div>
+                  <div class="special__footer">
+                    <p class="price">€1.50</p>
+                  </div>
+                </div>
+                  <div class="special__card" data-category="child">
+                    <img src="img/child-menu2.png" alt="special" />
+                    <h4>French Fries</h4>
+                    <p>
+                      Delight in our golden French Fries served alongside a colorful medley of carrots and broccoli
+                    </p>
+                    <div class="special__ratings">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                    </div>
+                    <div class="special__footer">
+                      <p class="price">€3.50</p>
+                    </div>
+                  </div>
+                    <div class="special__card" data-category="drinks">
+                      <img src="img/drinks1.png" alt="special" />
+                      <h4>Coffee</h4>
+                      <p>
+                        Awaken your senses with our rich, aromatic coffee
+                      </p>
+                      <div class="special__ratings">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                      </div>
+                      <div class="special__footer">
+                        <p class="price">€2.50</p>
+                      </div>
+                    </div>
+                      <div class="special__card" data-category="drinks">
+                        <img src="img/drinks2.png" alt="special" />
+                        <h4>Juices</h4>
+                        <p>
+                          Quench your thirst with our refreshing selection of vibrant, freshly squeezed juices, packed with vitamins
+                        </p>
+                        <div class="special__ratings">
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                          <p class="price">€3.00</p>
+                        </div>
+                      </div>
+                      <div class="special__card" data-category="dessert">
+                        <img src="img/dessert1.png" alt="special" />
+                        <h4>Cheesecake</h4>
+                        <p>
+                          A creamy cheesecake topped with a medley of fresh, seasonal mountain fruits
+                        </p>
+                        <div class="special__ratings">
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                          <p class="price">€4.50</p>
+                        </div>
+                      </div>
+                      <div class="special__card" data-category="dessert">
+                        <img src="img/dessert2.png" alt="special" />
+                        <h4>Pancake</h4>
+                        <p>
+                          Fluffy, golden pancakes served with a drizzle of syrup and a side of fresh berries
+                        </p>
+                        <div class="special__ratings">
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                          <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                          <p class="price">€6.00</p>
+                        </div>
+                      </div>
+      </div>
+</section>
+<!-------------------------------------------------SERVICES-------------------------------------------------------------------------------->
+<section class="section__container banner__container" id="services">
+  <h1 class="section__header">Our Services</h1>
+  <div class="banner__cards">
+    <div class="banner__card">
+      <i class="fa-solid fa-user"></i>
+      <h4>Master Chef's</h4>
+      <p>
+        Our culinary artist at Dream Taste, known for transforming fresh, local ingredients into unforgettable dishes
+      </p>
+    </div>
+    <div class="banner__card">
+      <i class="fa-solid fa-utensils"></i>
+      <h4>Quality Food</h4>
+      <p>
+        At Dream Taste, we pride ourselves on serving only the freshest, highest quality dishes crafted with passion and precision
+      </p>
+    </div>
+    <div class="banner__card">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <h4>Online order</h4>
+      <p>
+        Enjoy the flavors of Dream Taste from the comfort of your home. Quick, easy, and delicious order online now
+      </p>
+    </div>
+    <div class="banner__card">
+      <i class="fa-solid fa-headset"></i>
+      <h4>24/7 Service</h4>
+      <p>
+        Enjoy our tasty dishes anytime, day or night, early or late
+      </p>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------------------RESERVATION----------------------------------------------------------------------------------->
+<section class="book" id="reservation">
+  <div class="booking">
+    <h1>Book A Table Online</h1>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="email" placeholder="Your Email">
+    <input type="date" id="date">
+    <select id="people">
+      <option value="" disabled selected>Number of People</option>
+      <option value="1">1 Person</option>
+      <option value="2">2 People</option>
+      <option value="3">3 People</option>
+      <option value="4">4 People</option>
+      <option value="5">5 People</option>
+      <option value="6">6 People</option>
+      <option value="7">7 People</option>
+      <option value="8">8 People</option>
+      <option value="9">9 People</option>
+      <option value="10">10 People</option>
+    </select>
+    <textarea id="requests" placeholder="Special Requests"></textarea>
+    <button type="submit" id="bookNowBtn">Book Now</button>
+  </div>
+</section>
+<!-------------------------------------------------CHEF--------------------------------------------------------------------------------->    
+<section class="chef" id="chef">
+  <div class="section__container chef__container">
+    <div class="chef__content">
+      <h2 class="section__header">Cooked By The Best Chefs In The World</h2>
+      <p class="section__description">
+        Experience culinary excellence crafted by master chefs from around
+        the globe. Our team of culinary virtuosos brings together expertise,
+        innovation, and passion to create unforgettable dining experiences
+        that redefine gastronomy.
+      </p>
+    </div>
+    <div class="chef__images">
+      <div class="chef__image">
+        <img src="img/chef1.jpg" alt="chef1" />
+        <p>Chef Flora Iseni</p>
+      </div>
+      <div class="chef__image">
+        <img src="img/chef2.jpg" alt="chef2" />
+        <p>Chef Andi Berisha</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------------------------------------FOOTER------------------------------------------------------------------------------>
+<section>
+  <footer>
+    <div class="footer-content">
+        <div class="section">
+            <div class="column">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Contact</h2>
+                <ul>
+                    <li> Ljubljanska 4, Skopje 1000, North Macedonia</li>
+                    <li>+389 71 212121</li>
+                    <li>d.taste@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Opening</h2>
+                <ul>
+                    <li>Monday - Saturday: 09AM - 11PM</li>
+                    <li>Sunday: 10AM - 08PM</li>
+                </ul>
+            </div>
+            <div class="column">
+                    <input type="email" placeholder="Your Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Your Restaurant. All Rights Reserved. Designed By Fidane Latifi</p>
+    </div>
+</footer>
+
+</section> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
